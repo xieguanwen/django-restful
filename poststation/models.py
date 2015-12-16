@@ -1,8 +1,6 @@
 from django.db import models
 
 class ShoujiPoststation(models.Model):
-    class Meta:
-        pass
     attr_id = models.SmallIntegerField(primary_key=True)
     cat_id = models.SmallIntegerField()
     attr_name = models.CharField(max_length=255)
